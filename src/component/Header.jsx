@@ -18,12 +18,28 @@ const Header = () => {
                 </a>
                 <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
                     <Link href='/' className="mr-5 hover:text-white">Home</Link>
-                    <Link href='/signup' className="mr-5 hover:text-white">Signup</Link>
-                    <Link href='/login' className="mr-5 hover:text-white">Login</Link>                    
+                    {/* <Link href='/signup' className="mr-5 hover:text-white">Signup</Link>
+                    <Link href='/login' className="mr-5 hover:text-white">Login</Link>                     */}
                     <Link href="/carlist" className="mr-5 hover:text-white">Cars</Link>
                     <Link href="/about" className="mr-5 hover:text-white">About</Link>
                     <Link href="/contact" className="mr-5 hover:text-white">Contact</Link>
+                   
                 </nav>
+
+                <div className='flex max-sm:flex-col items-start sm:items-center gap-6'>
+
+                    <a href="/Owner">
+                   
+
+                    <button className="cursor-pointer bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-2 px-4 rounded">
+                        Dashboard
+                    </button>
+                     </a>
+                   
+                    <a href="/signup">
+                    <button className='cursor-pointer px-8 py-2 bg-blue-600 hover:bg-blue-700 transition-all text-white rounded-lg'>Login</button>
+                   </a>
+                </div>
             </div>
         </header>
 

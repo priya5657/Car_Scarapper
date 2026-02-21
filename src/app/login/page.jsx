@@ -39,7 +39,7 @@ const Login = () => {
             <h1 className="block text-2xl font-bold text-gray-800 dark:text-white">Sign in</h1>
             <p className="mt-2 text-sm text-gray-600 dark:text-neutral-400">
               Don't have an account yet?
-              <a className="text-blue-600 decoration-2 hover:underline focus:outline-hidden focus:underline font-medium dark:text-blue-500" href="../examples/html/signup.html">
+              <a className="text-blue-600 decoration-2 hover:underline focus:outline-hidden focus:underline font-medium dark:text-blue-500" href="/signup">
                 Sign up here
               </a>
             </p>
